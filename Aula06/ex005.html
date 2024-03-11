@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: rgb(17, 17, 17);
+            color: orange;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Lorem ipsum dolor sit amet consectetur DOM adipisicing elit.</h1>
+    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil ab expedita reiciendis optio qui, fugiat asperiores explicabo at voluptatem error perferendis sed ex beatae libero! Officiis libero obcaecati ab voluptatum.</P>
+    <p>Aqui vai ooooo oaaaaaa Resultado</p>
+    <p>Aprendendo O <string>DOM</string> em JS</p>
+    <p>Nadaaaa está funcionando nessa bagaça</p>
+    <div id= "msg">Clique em aaaaaaaa mim!</div>
+
+    <script>
+
+        var p1 = window.document.getElementsByTagName('p')[1]
+        window.document.write("ESTÁ ESCRITO ASSSIM: <br>" +  p1.innerText)
+        //esse funcionou
+
+       // p.style.background = "write"
+
+        //Nada funciona - não consegui e estava tudo igualzinho do exemplo 
+
+        var d = window.document.queryselector('div#msg')
+        d.style.background = "blue"        
+
+        
+
+    </script>
+</body>
+</html>
