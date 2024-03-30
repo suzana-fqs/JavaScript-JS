@@ -6,7 +6,7 @@ var diaSem = agora.getDay()
 
 */
 
-var diaSem = 33
+var diaSem = 5
 
 /*
 0 = Domingo
@@ -35,7 +35,7 @@ switch(diaSem) {
         console.log('Quinta')
         break
     case 5:
-        console.log('Sexta')
+        console.log('Sexta-feira')
         break
     case 6:
         console.log('Sájhjkjbado')

@@ -1,4 +1,4 @@
-var hora = 22
+var hora = 02
 console.log ('Que horas são?')
 console.log (`Agora são ${hora} horas.`)
 

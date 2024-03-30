@@ -20,6 +20,7 @@ do{
 
 
 //ESTRUTURA DE REPETIÇÃO COM VARIÁVEL DE CONTROLE
-for (var c = 1 ; c>=10 ; c++){
+var c = 1
+for (var c=1 ;c<=100;c++) {
     console.log(`sua senha é ${c}`)
 }
