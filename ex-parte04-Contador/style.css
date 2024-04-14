@@ -1,0 +1,56 @@
+
+*{
+    margin: auto;
+    padding: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+header{
+    color: rgb(9, 70, 43);
+    text-align: center;
+    padding: 10px;  
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+}
+
+section{
+    background: rgb(190, 245, 188);
+    padding: 50px 80px;
+    width: 70vw;
+}
+
+fieldset{
+    padding: 30px 30px;
+}
+
+div{
+    display: block;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    color: rgb(0, 0, 0)
+}
+
+p{
+    padding: 5px 0;
+}
+
+#botao{
+    width: 100px;
+    padding: 10px;
+    color: aliceblue;
+    background-color: black;
+    border: none;
+}
+
+#botao:hover{
+    transform: scale(108%);
+    transition: 80ms;
+}
+
+footer {
+    padding: 20px 0px;
+    text-align: center;
+}
