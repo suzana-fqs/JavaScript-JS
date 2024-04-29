@@ -14,30 +14,18 @@
 
     <section>
         <div>
-            <fieldset>
+            
                 <legend> Contador </legend>
-                <p>
-                    <label for="inicio">Número inicial:</label>
-                    <input type="number">
-                </p>
-                <p>
-                    <label for="fim">Número Final:</label>
-                    <input type="number">
-                </p>
-                <p>
-                    <label for="passo">Passo da contagem:</label>
-                    <input type="number">
-                </p>   
-                <input type="button" id="botao" value="Verificar" onclick="verificar" >
-            </fieldset>
+                <p> Inicio: <input type="number" name="inicio" id="txti"></p>
+                <p> Fim: <input type="number" name="fim" id="txtf"> </p>
+                <p> Passo: <input type="number" name="passo" id="txtp"> </p>   
+                <p><input type="button" id="botao" value="contar" onclick="contar()"></p>
+            
 
         </div>
         
         <div id="res">
-            <fieldset>
-                <legend>Resultado</legend>
-
-            </fieldset>
+    Preparando a contagem...
         </div>
     </section>
 
