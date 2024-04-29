@@ -11,11 +11,20 @@ function contar() {
         var i = Number(ini.value)
         var f = Number(fim.value)
         var p = Number(passo.value)
-
-        for(var c = i; c <= f; c += p) {
-            res.innerHTML += `${c} \u{1F913} `
-
+        if (p <= 0){
+            window.alert(`Passo inválido! Cosidere passo 1.`)
         }
+        if (i < f) {
+            //contador crescente
+                for(var c = i; c <= f; c += p) {
+                res.innerHTML += `${c} \u{1F913} `
+            }
+        } else{
+            //contador decrescente
+                for(var c = i; c>=f; c-=p){
+                res.innerHTML += `${c} \u{1F913}`
+                }
+        }
+        res.innerHTML += `\u{1f941}`
     }    
-}   
-
+}
