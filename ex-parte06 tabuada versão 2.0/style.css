@@ -1,0 +1,54 @@
+*{    
+    margin: auto;
+    padding: 0;
+    width: 30vw;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background: rgb(43, 42, 86);
+}
+
+section{
+    padding: 50px 50px;
+    background-color: rgba(0, 0, 0, 0.848);
+    margin-top: 80px;
+    
+}
+
+div{
+    display: inline-block;
+    color:aliceblue;
+    margin: 10px 0;
+
+}
+h1{
+    color: orangered;
+    font-weight: 900;
+}
+input{
+    margin: 10px 0;
+
+}
+
+.botao{
+    background-color: orangered;
+    color: black;
+    padding: 06px;
+    width: 65%;
+    border: none;
+    
+
+}
+
+#txtn{
+    width: 10%;
+    margin: 0 5px;
+    height: 25px;
+}
+
+#seltab{
+    margin-top: 5px;
+    padding: 10px;
+
+}
