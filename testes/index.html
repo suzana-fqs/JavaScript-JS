@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Functions</h2>
+
+<form>
+  Calculadora <input type="text" id="num1"> x <input type="text" id="num2">
+  <button type="button" onclick="multiplicar()">Multiplicar</button>
+</form>
+
+<div id="res"></div>
+
+<script>
+function multiplicar() {
+  let n1 = Number(document.getElementById('num1').value)
+  let n2 = Number(document.getElementById('num2').value)
+  let mult = n1 * n2
+    res.innerHTML = mult
+}
+</script>
+
+</body>
+</html>
+
